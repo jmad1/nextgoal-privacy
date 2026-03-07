@@ -91,9 +91,11 @@
     <p>For support or privacy inquiries, use the feedback button in the app or email:</p>
     <p><span id="contact-email">Loading...</span></p>
     <script>
-      const email = 'jemcodev@gmail.com';
-      document.getElementById('contact-email').innerHTML =
-      `<a href="mailto:${email}">${email}</a>`;
+        // Simple obfuscation - harder for bots to scrape
+        const parts = ['jemcodev', 'gmail', 'com'];
+        const email = `${parts[0]}@${parts[1]}.${parts[2]}`;
+        document.getElementById('contact-email').innerHTML = 
+        `<a href="mailto:${email}">${email}</a>`;
     </script>
     <noscript>
       <p><a href="mailto:jemcodev@gmail.com">jemcodev@gmail.com</a></p>
