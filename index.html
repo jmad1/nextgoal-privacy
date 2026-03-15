@@ -24,53 +24,149 @@
   <div class="wrap">
     <header>
       <h1>Privacy Policy for NextGoal Running</h1>
-      <div>Effective Date: 2026-01-18</div>
+      <div>Effective Date: 2026-03-15</div>
     </header>
 
     <section class="card">
       <h2>Overview</h2>
-      <p>NextGoal Running collects only what’s necessary to operate the app. This policy explains what we collect, how we use it, and your choices.</p>
+      <p>NextGoal Running collects only what is necessary to operate the app. This policy explains what data the app accesses, including health and fitness data, how that data is used, whether it is shared, and the choices available to you.</p>
+    </section>
+
+    <section class="card">
+      <h2>Health Data: What We Collect and Why</h2>
+      <p>NextGoal Running collects one category of health data: <strong>body weight</strong>, which you may optionally enter in the app's Settings screen.</p>
+      <h3 style="font-size:1rem; margin: 12px 0 6px;">What is collected</h3>
+      <ul>
+        <li><strong>Body weight</strong> (optional) — a numeric value you type into the app. The app supports both kilograms and pounds.</li>
+      </ul>
+      <h3 style="font-size:1rem; margin: 12px 0 6px;">How it is used</h3>
+      <ul>
+        <li>To personalise the <em>Fueling Calculator</em> — calculating carbohydrate loading targets, hydration recommendations, and pre-race nutrition guidance based on your body weight.</li>
+        <li>No other feature reads or uses your body weight.</li>
+      </ul>
+      <h3 style="font-size:1rem; margin: 12px 0 6px;">How it is stored and protected</h3>
+      <ul>
+        <li>Body weight is stored <strong>only on your device</strong> using Android's SharedPreferences (local device storage). It is never transmitted off your device, never uploaded to any server, and never shared with any third party.</li>
+        <li>The field is entirely optional. Leaving it blank has no effect on core app functionality.</li>
+      </ul>
+      <h3 style="font-size:1rem; margin: 12px 0 6px;">What we do NOT do with health data</h3>
+      <ul>
+        <li>We do not sell body weight or any other health data.</li>
+        <li>We do not use health data for advertising, marketing, or user profiling.</li>
+        <li>We do not share health data with advertisers, analytics providers, or any other third party.</li>
+        <li>We do not access any platform health service (such as Google Health Connect, Google Fit, or Apple Health). No workout history, step counts, heart rate, or similar fitness data is read from your device.</li>
+      </ul>
+      <h3 style="font-size:1rem; margin: 12px 0 6px;">How to delete it</h3>
+      <ul>
+        <li>Clear the body weight field in Settings at any time, or uninstall the app to remove all local app data.</li>
+      </ul>
     </section>
 
     <section class="card">
       <h2>Information We Collect</h2>
-      <ul>
-        <li>App data stored locally on your device (e.g., race info via Hive). This data is not uploaded.</li>
-        <li>Optional diagnostics/crash data provided by the OS or platform services.</li>
-        <li>Feedback you send to support (e.g., your email address and message content).</li>
-      </ul>
+      <table style="width:100%; border-collapse:collapse; font-size:.95rem;">
+        <thead>
+          <tr style="background:rgba(0,0,0,.06); text-align:left;">
+            <th style="padding:8px;">Data</th>
+            <th style="padding:8px;">Category</th>
+            <th style="padding:8px;">Where stored</th>
+            <th style="padding:8px;">Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">Body weight (optional, user-entered)</td>
+            <td style="padding:8px;">Health Data</td>
+            <td style="padding:8px;">On device only (SharedPreferences)</td>
+            <td style="padding:8px;">Fueling &amp; nutrition calculations</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">Goal race details (name, date, distance, target time)</td>
+            <td style="padding:8px;">User-entered app data</td>
+            <td style="padding:8px;">On device only (Hive local DB)</td>
+            <td style="padding:8px;">Race planning, pace &amp; strategy tools</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">Race-day checklist items</td>
+            <td style="padding:8px;">User-entered app data</td>
+            <td style="padding:8px;">On device only (Hive local DB)</td>
+            <td style="padding:8px;">Race-day preparation</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">App preferences (theme, units, layout)</td>
+            <td style="padding:8px;">App settings</td>
+            <td style="padding:8px;">On device only (SharedPreferences)</td>
+            <td style="padding:8px;">Personalise app experience</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">Pacing strategy state (intervals, terrain, effort segments)</td>
+            <td style="padding:8px;">App state</td>
+            <td style="padding:8px;">On device only (SharedPreferences)</td>
+            <td style="padding:8px;">Restore your last pacing strategy</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;">Support email content (if you contact us)</td>
+            <td style="padding:8px;">Communication data</td>
+            <td style="padding:8px;">Email provider of your choice</td>
+            <td style="padding:8px;">Respond to support requests</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:.9rem;">The app does <strong>not</strong> collect device identifiers, location data, contacts, camera/microphone data, or any data from platform health services.</p>
     </section>
 
     <section class="card">
       <h2>How We Use Information</h2>
       <ul>
-        <li>Provide features like race tools, calculators, strategies, and checklists.</li>
+        <li>Power the Fueling Calculator and pre-race nutrition guidance using the body weight you optionally provide.</li>
+        <li>Provide race planning features: pace calculator, pacing strategy, race-day checklist, and race card management.</li>
+        <li>Restore your saved race and strategy state between sessions.</li>
         <li>Improve reliability, performance, and fix bugs.</li>
         <li>Respond to support requests.</li>
       </ul>
     </section>
 
     <section class="card">
-      <h2>Permissions</h2>
-      <ul>
-        <li>Storage: Save local app data (Hive).</li>
-        <li>Network: Retrieve race information from third-party sources you request.</li>
-      </ul>
+      <h2>App Permissions</h2>
+      <p>NextGoal Running requests the following Android permissions:</p>
+      <table style="width:100%; border-collapse:collapse; font-size:.95rem;">
+        <thead>
+          <tr style="background:rgba(0,0,0,.06); text-align:left;">
+            <th style="padding:8px;">Permission</th>
+            <th style="padding:8px;">Why it is needed</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;"><code>INTERNET</code></td>
+            <td style="padding:8px;">Retrieve race date and event information from public websites when you use the race search feature. No personal data is sent in these requests.</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;"><code>WRITE_EXTERNAL_STORAGE</code> (Android 9 and below only)</td>
+            <td style="padding:8px;">Save a generated PDF pace band to your device's Downloads folder so you can print or share it. On Android 10+, no storage permission is required for this.</td>
+          </tr>
+          <tr style="border-top:1px solid rgba(0,0,0,.08);">
+            <td style="padding:8px;"><code>ACCESS_NOTIFICATION_POLICY</code></td>
+            <td style="padding:8px;">Required by the audio plugin to check Do Not Disturb status before playing optional celebration sounds.</td>
+          </tr>
+        </tbody>
+      </table>
+      <p style="margin-top:12px; font-size:.9rem;">The app does <strong>not</strong> request permissions for health services, location, camera, microphone, contacts, or biometric data.</p>
     </section>
 
     <section class="card">
       <h2>Sharing & Disclosure</h2>
-      <p>We do not sell personal data. Data may be processed by service providers solely to operate app features.</p>
+      <p>We do not sell personal data, including health data. Health and fitness data accessed by the app is not disclosed to third parties for advertising or marketing. Data may be processed by service providers only when necessary to operate app features, provide support, comply with legal obligations, or protect the app and its users.</p>
     </section>
 
     <section class="card">
       <h2>Data Retention</h2>
-      <p>Local data remains on your device until you delete it or uninstall the app.</p>
+      <p>All app data, including any body weight you enter, is stored only on your device and retained until you clear it in Settings or uninstall the app. No personal data is stored on remote servers.</p>
     </section>
 
     <section class="card">
       <h2>Security</h2>
-      <p>We use platform best practices. Sensitive personal data is not transmitted off-device without your action.</p>
+      <p>All personal data, including body weight, is stored locally on your device using Android's standard secure storage mechanisms. No personal data is transmitted off your device by the app. Network requests made by the app (race search) do not include any personal or health data.</p>
     </section>
 
     <section class="card">
@@ -81,25 +177,16 @@
     <section class="card">
       <h2>Your Choices</h2>
       <ul>
-        <li>You can delete local app data in-app or by uninstalling.</li>
-        <li>You can contact us to request deletion of support emails you’ve sent.</li>
+        <li><strong>Body weight:</strong> Clear the field in Settings at any time. The app functions fully without it.</li>
+        <li><strong>Race &amp; checklist data:</strong> Delete individual items in-app or uninstall the app to remove all local data.</li>
+        <li><strong>Support emails:</strong> Contact us to request deletion of any support correspondence you have sent.</li>
       </ul>
     </section>
 
     <section class="card">
     <h2>Contact</h2>
     <p>For support or privacy inquiries, use the feedback button in the app or email:</p>
-    <p><span id="contact-email">Loading...</span></p>
-    <script>
-        // Simple obfuscation - harder for bots to scrape
-        const parts = ['jemcodev', 'gmail', 'com'];
-        const email = `${parts[0]}@${parts[1]}.${parts[2]}`;
-        document.getElementById('contact-email').innerHTML = 
-        `<a href="mailto:${email}">${email}</a>`;
-    </script>
-    <noscript>
-      <p><a href="mailto:jemcodev@gmail.com">jemcodev@gmail.com</a></p>
-    </noscript>
+    <p><a href="mailto:jemcodev@gmail.com">jemcodev@gmail.com</a></p>
     </section>
 
     <section class="card">
