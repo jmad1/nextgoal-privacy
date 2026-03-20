@@ -1,0 +1,4710 @@
+{
+  "db_version": 1,
+  "races": [
+    {
+      "name": "Boston Marathon",
+      "aliases": [
+        "BAA Marathon",
+        "Boston"
+      ],
+      "website": "https://www.baa.org",
+      "description": "The world\u0027s oldest annual marathon and one of the World Marathon Majors.",
+      "typical_month": "April",
+      "location": "Boston, MA",
+      "tags": [
+        "world-major",
+        "qualifying"
+      ],
+      "events": [
+        {
+          "event_id": "boston-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-04-20",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 4,
+            "weekday": "Monday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Chicago Marathon",
+      "aliases": [
+        "Bank of America Chicago Marathon",
+        "Chicago"
+      ],
+      "website": "https://www.chicagomarathon.com",
+      "description": "One of the World Marathon Majors, known for its flat course and amazing crowd support.",
+      "typical_month": "October",
+      "location": "Chicago, IL",
+      "tags": [
+        "world-major",
+        "fast-course",
+        "flat-course"
+      ],
+      "events": [
+        {
+          "event_id": "chicago-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "chicago-marathon-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.2,
+          "tags": [],
+          "next_event_date": "2026-10-10",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-03",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "New York City Marathon",
+      "aliases": [
+        "NYC Marathon",
+        "TCS New York City Marathon"
+      ],
+      "website": "https://www.tcsnycmarathon.org",
+      "description": "The largest marathon in the world, running through all five NYC boroughs.",
+      "typical_month": "November",
+      "location": "New York, NY",
+      "tags": [
+        "world-major",
+        "lottery"
+      ],
+      "events": [
+        {
+          "event_id": "new-york-city-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-01",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 11,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "London Marathon",
+      "aliases": [
+        "Virgin Money London Marathon"
+      ],
+      "website": "https://www.londonmarathonevents.co.uk/london-marathon",
+      "description": "One of the World Marathon Majors, famous for its charity fundraising.",
+      "typical_month": "April",
+      "location": "London, UK",
+      "tags": [
+        "world-major",
+        "charity"
+      ],
+      "events": [
+        {
+          "event_id": "london-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-26",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-03",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Berlin Marathon",
+      "aliases": [
+        "BMW Berlin Marathon"
+      ],
+      "website": "https://www.bmw-berlin-marathon.com",
+      "description": "Known as one of the fastest marathon courses in the world.",
+      "typical_month": "September",
+      "location": "Berlin, Germany",
+      "tags": [
+        "world-major",
+        "fast-course"
+      ],
+      "events": [
+        {
+          "event_id": "berlin-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course"
+          ],
+          "next_event_date": "2026-09-27",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 9,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Tokyo Marathon",
+      "aliases": [
+        "Tokyo Marathon Foundation"
+      ],
+      "website": "https://www.marathon.tokyo",
+      "description": "One of the World Marathon Majors, showcasing the culture and spirit of Tokyo.",
+      "typical_month": "March",
+      "location": "Tokyo, Japan",
+      "tags": [
+        "world-major",
+        "cultural"
+      ],
+      "events": [
+        {
+          "event_id": "tokyo-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-03-01",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 3,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Marine Corps Marathon",
+      "aliases": [
+        "MCM",
+        "People\u0027s Marathon"
+      ],
+      "website": "https://www.marinemarathon.com",
+      "description": "Known as \u0027The People\u0027s Marathon\u0027 honoring military service members.",
+      "typical_month": "October",
+      "location": "Washington, DC",
+      "tags": [
+        "patriotic",
+        "military"
+      ],
+      "events": [
+        {
+          "event_id": "marine-corps-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-25",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 10,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Big Sur Marathon",
+      "aliases": [
+        "Big Sur International Marathon"
+      ],
+      "website": "https://www.bigsurmarathon.org",
+      "description": "One of the most scenic marathons in the world along California\u0027s coast.",
+      "typical_month": "April",
+      "location": "Big Sur, CA",
+      "tags": [
+        "coastal",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "big-sur-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-26",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Peachtree Road Race",
+      "aliases": [
+        "AJC Peachtree Road Race",
+        "Peachtree 10K"
+      ],
+      "website": "https://www.atlantatrackclub.org",
+      "description": "The world\u0027s largest 10K race held annually on Independence Day in Atlanta.",
+      "typical_month": "July",
+      "location": "Atlanta, GA",
+      "tags": [
+        "10k",
+        "independence-day"
+      ],
+      "events": [
+        {
+          "event_id": "peachtree-road-race-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-07-04",
+          "date_rule": {
+            "type": "fixed_date",
+            "month": 7,
+            "day": 4
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Bay to Breakers",
+      "aliases": [
+        "Bay to Breakers 12K"
+      ],
+      "website": "https://www.baytobreakers.com",
+      "description": "Famous San Francisco race known for costumes and fun atmosphere.",
+      "typical_month": "May",
+      "location": "San Francisco, CA",
+      "tags": [
+        "costumes",
+        "fun-run"
+      ],
+      "events": [
+        {
+          "event_id": "bay-to-breakers-12k",
+          "name": "12K",
+          "distance_label": "12K",
+          "distance_miles": 7.46,
+          "tags": [],
+          "next_event_date": "2026-05-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Rock \u0027n\u0027 Roll Las Vegas Marathon",
+      "aliases": [
+        "RnR Vegas Marathon",
+        "Las Vegas Marathon"
+      ],
+      "website": "https://www.runrocknroll.com/events/las-vegas",
+      "description": "Night marathon on the Las Vegas Strip with live music and entertainment.",
+      "typical_month": "February",
+      "location": "Las Vegas, NV",
+      "tags": [
+        "entertainment",
+        "night-race"
+      ],
+      "events": [
+        {
+          "event_id": "rock-n-roll-las-vegas-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-02-21",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 2,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        },
+        {
+          "event_id": "rock-n-roll-las-vegas-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2027-02-21",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 2,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        },
+        {
+          "event_id": "rock-n-roll-las-vegas-marathon-5k",
+          "name": "5k",
+          "distance_label": "5k",
+          "distance_miles": 3.11,
+          "tags": [],
+          "next_event_date": "2027-02-20",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Grandma\u0027s Marathon",
+      "aliases": [
+        "Grandmas Marathon"
+      ],
+      "website": "https://www.grandmasmarathon.com",
+      "description": "Fast, point-to-point marathon along Lake Superior with great Boston qualifying times.",
+      "typical_month": "June",
+      "location": "Duluth, MN",
+      "tags": [
+        "point-to-point",
+        "fast-course"
+      ],
+      "events": [
+        {
+          "event_id": "grandma-s-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course"
+          ],
+          "next_event_date": "2026-06-20",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 6,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "grandma-s-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-06-20",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 6,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Los Angeles Marathon",
+      "aliases": [
+        "LA Marathon"
+      ],
+      "website": "https://www.lamarathon.com",
+      "description": "A popular point-to-point race from Dodger Stadium to Santa Monica.",
+      "typical_month": "March",
+      "location": "Los Angeles, CA",
+      "tags": [
+        "point-to-point",
+        "popular",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "los-angeles-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-03-07",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 3,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Houston Marathon",
+      "aliases": [
+        "Chevron Houston Marathon"
+      ],
+      "website": "https://www.chevronhoustonmarathon.com",
+      "description": "Flat and fast race, great for first-timers and BQ hopefuls.",
+      "typical_month": "January",
+      "location": "Houston, TX",
+      "tags": [
+        "fast-course",
+        "winter",
+        "flat-course"
+      ],
+      "events": [
+        {
+          "event_id": "houston-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-01-17",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": "chevronhoustonmarathon.com official announcement",
+          "last_verified_date": "2026-02-05",
+          "needs_review": false,
+          "notes": "Official date January 16-17, 2027 weekend. Main race Sunday Jan 17. Date pattern unreliable - verify annually."
+        },
+        {
+          "event_id": "houston-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-01-17",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": "chevronhoustonmarathon.com official announcement",
+          "last_verified_date": "2026-02-05",
+          "needs_review": false,
+          "notes": "Official date January 16-17, 2027 weekend. Main race Sunday Jan 17. Date pattern unreliable - verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Philadelphia Marathon",
+      "aliases": [
+        "Philly Marathon"
+      ],
+      "website": "https://www.philadelphiamarathon.com",
+      "description": "Scenic course through Philadelphia with good crowd support.",
+      "typical_month": "November",
+      "location": "Philadelphia, PA",
+      "tags": [
+        "bq-eligible",
+        "historic",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "philadelphia-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-11-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 11,
+            "weekday": "Sunday",
+            "n": 4
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "philadelphia-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-11-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 11,
+            "weekday": "Sunday",
+            "n": 4
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Twin Cities Marathon",
+      "aliases": [
+        "TC Marathon"
+      ],
+      "website": "https://www.tcmevents.org",
+      "description": "Scenic race through Minneapolis and St. Paul known as \u0027The Most Beautiful Urban Marathon in America\u0027.",
+      "typical_month": "October",
+      "location": "Minneapolis, MN",
+      "tags": [
+        "scenic",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "twin-cities-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-04",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 10,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "California International Marathon",
+      "aliases": [
+        "CIM"
+      ],
+      "website": "https://runsra.org/california-international-marathon/",
+      "description": "One of the fastest BQ courses in the U.S., point-to-point and downhill.",
+      "typical_month": "December",
+      "location": "Sacramento, CA",
+      "tags": [
+        "bq-eligible",
+        "point-to-point",
+        "fast-course"
+      ],
+      "events": [
+        {
+          "event_id": "california-international-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible",
+            "fast-course"
+          ],
+          "next_event_date": "2026-12-06",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 12,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Paris Marathon",
+      "aliases": [
+        "Schneider Electric Paris Marathon"
+      ],
+      "website": "https://www.schneiderelectricparismarathon.com",
+      "description": "One of Europe\u2019s largest marathons, showcasing Paris landmarks.",
+      "typical_month": "April",
+      "location": "Paris, France",
+      "tags": [
+        "international",
+        "landmarks"
+      ],
+      "events": [
+        {
+          "event_id": "paris-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 4,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Amsterdam Marathon",
+      "aliases": [
+        "TCS Amsterdam Marathon"
+      ],
+      "website": "https://www.tcsamsterdammarathon.nl",
+      "description": "Flat, scenic route through historic Amsterdam and the Olympic Stadium.",
+      "typical_month": "October",
+      "location": "Amsterdam, Netherlands",
+      "tags": [
+        "international",
+        "fast-course",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "amsterdam-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course"
+          ],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "amsterdam-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "amsterdam-marathon-8k",
+          "name": "7.5k",
+          "distance_label": "7.5K",
+          "distance_miles": 4.97,
+          "tags": [],
+          "next_event_date": "2026-10-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Gold Coast Marathon",
+      "aliases": [
+        "Gold Coast"
+      ],
+      "website": "https://www.goldcoastmarathon.com.au",
+      "description": "Fast and scenic coastal marathon in Queensland, Australia.",
+      "typical_month": "July",
+      "location": "Gold Coast, Australia",
+      "tags": [
+        "coastal",
+        "fast-course",
+        "scenic",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "gold-coast-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-07-05",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 7,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "gold-coast-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-07-04",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 7,
+            "weekday": "Saturday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "gold-coast-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-07-04",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 7,
+            "weekday": "Saturday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Western States Endurance Run",
+      "aliases": [
+        "Western States 100",
+        "WSER"
+      ],
+      "website": "https://www.wser.org",
+      "description": "The world\u0027s oldest 100-mile trail race through California\u2019s Sierra Nevada Mountains.",
+      "typical_month": "June",
+      "location": "Olympic Valley to Auburn, CA",
+      "tags": [
+        "mountain",
+        "trail",
+        "ultra",
+        "historic"
+      ],
+      "events": [
+        {
+          "event_id": "western-states-endurance-run-ultramarathon",
+          "name": "Ultramarathon",
+          "distance_label": "100 miles",
+          "distance_miles": 100.0,
+          "tags": [],
+          "next_event_date": "2026-06-27",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 6,
+            "weekday": "Saturday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Leadville Trail 100",
+      "aliases": [
+        "Leadville 100"
+      ],
+      "website": "https://www.leadvilleraceseries.com",
+      "description": "High-altitude ultra through the Colorado Rockies.",
+      "typical_month": "August",
+      "location": "Leadville, CO",
+      "tags": [
+        "high-altitude",
+        "trail",
+        "ultra"
+      ],
+      "events": [
+        {
+          "event_id": "leadville-trail-100-ultramarathon",
+          "name": "Ultramarathon",
+          "distance_label": "100 miles",
+          "distance_miles": 100.0,
+          "tags": [],
+          "next_event_date": "2026-08-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 8,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "St. George Marathon",
+      "aliases": [],
+      "website": "https://www.stgeorgemarathon.com",
+      "description": "Scenic downhill course and popular Boston qualifier in Utah.",
+      "typical_month": "October",
+      "location": "St. George, UT",
+      "tags": [
+        "bq-eligible",
+        "downhill",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "st-george-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-10-03",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "historical estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": "Typically held on a Saturday in early October; exact weekend varies year to year. Verify annually."
+        },
+        {
+          "event_id": "st-george-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-03",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "historical estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": "Typically held on a Saturday in early October; exact weekend varies year to year. Verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Bolder Boulder",
+      "aliases": [
+        "Bolder Boulder 10K"
+      ],
+      "website": "https://www.bolderboulder.com",
+      "description": "One of the largest 10K races in the U.S. with elite competition and Memorial Day celebrations.",
+      "typical_month": "May",
+      "location": "Boulder, CO",
+      "tags": [
+        "competitive",
+        "memorial-day",
+        "10k"
+      ],
+      "events": [
+        {
+          "event_id": "bolder-boulder-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-05-25",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "holiday-based",
+          "date_source": "historical estimate",
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Held annually on Memorial Day (last Monday of May). Date varies year to year based on the holiday."
+        }
+      ]
+    },
+    {
+      "name": "Crescent City Classic",
+      "aliases": [],
+      "website": "https://www.ccc10k.com",
+      "description": "Iconic Southern 10K held in New Orleans with a festive atmosphere.",
+      "typical_month": "April",
+      "location": "New Orleans, LA",
+      "tags": [
+        "festive",
+        "10k",
+        "southern"
+      ],
+      "events": [
+        {
+          "event_id": "crescent-city-classic-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-04-04",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "historical estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": "Typically held in early April; date may shift due to Easter weekend."
+        }
+      ]
+    },
+    {
+      "name": "Great North Run",
+      "aliases": [],
+      "website": "https://www.greatrun.org/events/great-north-run",
+      "description": "The world\u2019s largest half marathon by participation held in the UK.",
+      "typical_month": "September",
+      "location": "Newcastle, UK",
+      "tags": [
+        "half-marathon",
+        "international",
+        "largest"
+      ],
+      "events": [
+        {
+          "event_id": "great-north-run-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-09-13",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 9,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Comrades Marathon",
+      "aliases": [],
+      "website": "https://www.comrades.com",
+      "description": "Historic ultra marathon run between Durban and Pietermaritzburg, South Africa.",
+      "typical_month": "June",
+      "location": "South Africa",
+      "tags": [
+        "historic",
+        "ultra",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "comrades-marathon-ultramarathon",
+          "name": "Ultramarathon",
+          "distance_label": "89K",
+          "distance_miles": 55.3,
+          "tags": [],
+          "next_event_date": "2026-06-14",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": "comrades.com official announcement",
+          "last_verified_date": "2026-02-05",
+          "needs_review": false,
+          "notes": "2026 is UP RUN (Durban to Pietermaritzburg), 99th edition. Official date June 14, 2026. Race alternates direction annually - verify each year."
+        }
+      ]
+    },
+    {
+      "name": "Mayor\u0027s Midnight Sun Marathon",
+      "aliases": [
+        "Anchorage Marathon"
+      ],
+      "website": "https://www.anchoragemayorsmarathon.com/",
+      "description": "Scenic summer solstice race in Alaska.",
+      "typical_month": "June",
+      "location": "Anchorage, AK",
+      "tags": [
+        "summer",
+        "scenic",
+        "night-race"
+      ],
+      "events": [
+        {
+          "event_id": "mayor-s-midnight-sun-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-06-20",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-03",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Rock \u0027n\u0027 Roll Arizona",
+      "aliases": [
+        "RnR Arizona"
+      ],
+      "website": "https://www.runrocknroll.com/arizona",
+      "description": "Major race with full, half, and 10K distances across Phoenix.",
+      "typical_month": "January",
+      "location": "Phoenix, AZ",
+      "tags": [
+        "rock-n-roll",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "rock-n-roll-arizona-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-01-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Weekend before Martin Luther King Jr. Day. Usually 3rd Sunday of January but sometimes 2nd Sunday depending on when MLK Day falls. Verify official date annually."
+        },
+        {
+          "event_id": "rock-n-roll-arizona-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2027-01-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Weekend before Martin Luther King Jr. Day. Usually 3rd Sunday of January but sometimes 2nd Sunday depending on when MLK Day falls. Verify official date annually."
+        },
+        {
+          "event_id": "rock-n-roll-arizona-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.1,
+          "tags": [],
+          "next_event_date": "2027-01-16",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Weekend before Martin Luther King Jr. Day. Usually 3rd Saturday of January but sometimes 2nd Saturday depending on when MLK Day falls. Verify official date annually."
+        }
+      ]
+    },
+    {
+      "name": "Little Rock Marathon",
+      "aliases": [],
+      "website": "https://www.littlerockmarathon.com",
+      "description": "Known for having the world\u0027s largest finisher medal.",
+      "typical_month": "March",
+      "location": "Little Rock, AR",
+      "tags": [
+        "quirky",
+        "medal"
+      ],
+      "events": [
+        {
+          "event_id": "little-rock-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-03-07",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Hartford Marathon",
+      "aliases": [],
+      "website": "https://www.hartfordmarathon.com",
+      "description": "Premier marathon in Connecticut and part of the New England racing circuit.",
+      "typical_month": "October",
+      "location": "Hartford, CT",
+      "tags": [
+        "urban",
+        "new-england"
+      ],
+      "events": [
+        {
+          "event_id": "hartford-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-10",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "hartford-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-10",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Delaware Marathon",
+      "aliases": [],
+      "website": "https://www.delawaremarathon.org",
+      "description": "Wilmington\u2019s signature road race event.",
+      "typical_month": "April",
+      "location": "Wilmington, DE",
+      "tags": [
+        "coastal",
+        "small-state"
+      ],
+      "events": [
+        {
+          "event_id": "delaware-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-19",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Honolulu Marathon",
+      "aliases": [],
+      "website": "https://www.honolulumarathon.org",
+      "description": "One of the largest marathons in the U.S., held in tropical Hawaii.",
+      "typical_month": "December",
+      "location": "Honolulu, HI",
+      "tags": [
+        "destination",
+        "tropical"
+      ],
+      "events": [
+        {
+          "event_id": "honolulu-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-12-13",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 12,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "honolulu-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-12-13",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 12,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Famous Potato Marathon",
+      "aliases": [],
+      "website": "https://runsignup.com/Race/ID/Boise/YMCAFamousIdahoPotato",
+      "description": "Quirky and local-favorite race in Boise, Idaho.",
+      "typical_month": "May",
+      "location": "Boise, ID",
+      "tags": [
+        "quirky",
+        "local"
+      ],
+      "events": [
+        {
+          "event_id": "famous-potato-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-16",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "OneAmerica 500 Festival Mini-Marathon",
+      "aliases": [
+        "Indy Mini"
+      ],
+      "website": "https://www.indymini.com",
+      "description": "One of the largest half marathons in the country, held in Indianapolis.",
+      "typical_month": "May",
+      "location": "Indianapolis, IN",
+      "tags": [
+        "half-marathon",
+        "festival",
+        "mass-participation"
+      ],
+      "events": [
+        {
+          "event_id": "oneamerica-500-festival-mini-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-02",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 5,
+            "weekday": "Saturday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Des Moines Marathon",
+      "aliases": [],
+      "website": "https://www.desmoinesmarathon.com",
+      "description": "Iowa\u2019s premier marathon with a community focus.",
+      "typical_month": "October",
+      "location": "Des Moines, IA",
+      "tags": [
+        "community",
+        "midwest"
+      ],
+      "events": [
+        {
+          "event_id": "des-moines-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "des-moines-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Garmin Kansas City Marathon",
+      "aliases": [],
+      "website": "https://www.sportkc.org/marathon",
+      "description": "Garmin Kansas City Marathon held in Kansas City, KS.",
+      "typical_month": "October",
+      "location": "Kansas City, KS",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "garmin-kansas-city-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "garmin-kansas-city-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Kentucky Derby Festival Marathon",
+      "aliases": [],
+      "website": "https://derbyfestivalmarathon.com",
+      "description": "Kentucky Derby Festival Marathon held in Louisville, KY.",
+      "typical_month": "April",
+      "location": "Louisville, KY",
+      "tags": [
+        "festival",
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "kentucky-derby-festival-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-25",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "kentucky-derby-festival-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-04-25",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Maine Marathon",
+      "aliases": [],
+      "website": "https://mainemarathon.com",
+      "description": "Maine Marathon held in Portland, ME.",
+      "typical_month": "October",
+      "location": "Portland, ME",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "maine-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-04",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 10,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Mississippi Blues Marathon",
+      "aliases": [],
+      "website": "https://msbluesmarathon.com",
+      "description": "Mississippi Blues Marathon held in Jackson, MS.",
+      "typical_month": "February",
+      "location": "Jackson, MS",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "mississippi-blues-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-02-20",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "RunSignup",
+          "last_verified_date": "2026-03-15",
+          "needs_review": false,
+          "notes": "Applied from review queue. RunSignup race match \u0027Mississippi Blues Marathon, Half, 10K \u0026 5K\u0027 (next_date)"
+        },
+        {
+          "event_id": "mississippi-blues-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-02-20",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "nextgoal-sync",
+          "date_source": "RunSignup",
+          "last_verified_date": "2026-03-15",
+          "needs_review": false,
+          "notes": "Applied from review queue. RunSignup race match \u0027Mississippi Blues Marathon, Half, 10K \u0026 5K\u0027 (next_date)"
+        }
+      ]
+    },
+    {
+      "name": "Go! St. Louis Marathon",
+      "aliases": [],
+      "website": "https://www.gostlouis.org",
+      "description": "Go! St. Louis Marathon held in St. Louis, MO.",
+      "typical_month": "April",
+      "location": "St. Louis, MO",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "go-st-louis-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-11",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "go-st-louis-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-04-11",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Missoula Marathon",
+      "aliases": [],
+      "website": "https://www.missoulamarathon.org",
+      "description": "Missoula Marathon held in Missoula, MT.",
+      "typical_month": "June",
+      "location": "Missoula, MT",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "missoula-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-06-28",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 6,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "missoula-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-06-28",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 6,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Lincoln Marathon",
+      "aliases": [],
+      "website": "https://www.lincolnrun.org",
+      "description": "Lincoln Marathon held in Lincoln, NE.",
+      "typical_month": "May",
+      "location": "Lincoln, NE",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "lincoln-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-03",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 5,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "lincoln-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-03",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 5,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Manchester City Marathon",
+      "aliases": [],
+      "website": "https://www.millenniumrunning.com/marathon",
+      "description": "Manchester City Marathon held in Manchester, NH.",
+      "typical_month": "November",
+      "location": "Manchester, NH",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "manchester-city-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-08",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Duke City Marathon",
+      "aliases": [],
+      "website": "https://www.dukecitymarathon.com",
+      "description": "Duke City Marathon held in Albuquerque, NM.",
+      "typical_month": "October",
+      "location": "Albuquerque, NM",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "duke-city-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "duke-city-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "duke-city-marathon-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.11,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Charlotte Marathon",
+      "aliases": [],
+      "website": "https://thecharlottemarathon.com/",
+      "description": "Charlotte Marathon held in Charlotte, NC.",
+      "typical_month": "November",
+      "location": "Charlotte, NC",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "charlotte-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-14",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "charlotte-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-11-14",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Fargo Marathon",
+      "aliases": [],
+      "website": "https://www.fargomarathon.com",
+      "description": "Fargo Marathon held in Fargo, ND.",
+      "typical_month": "May",
+      "location": "Fargo, ND",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "fargo-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-30",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "holiday-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "fargo-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-30",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "holiday-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Oklahoma City Memorial Marathon",
+      "aliases": [],
+      "website": "https://okcmarathon.com",
+      "description": "Oklahoma City Memorial Marathon held in Oklahoma City, OK.",
+      "typical_month": "April",
+      "location": "Oklahoma City, OK",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "oklahoma-city-memorial-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-26",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Eugene Marathon",
+      "aliases": [],
+      "website": "https://www.eugenemarathon.com",
+      "description": "Eugene Marathon held in Eugene, OR.",
+      "typical_month": "April",
+      "location": "Eugene, OR",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "eugene-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-04-26",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "eugene-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-04-26",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Newport Marathon",
+      "aliases": [],
+      "website": "https://newportmarathon.com/",
+      "description": "Stunning views and a beachside finish",
+      "typical_month": "October",
+      "location": "Rhode Island",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "newport-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "Typically held in early October; exact date varies by year and is announced closer to race season."
+        }
+      ]
+    },
+    {
+      "name": "Myrtle Beach Marathon",
+      "aliases": [],
+      "website": "https://mbmarathon.com",
+      "description": "Myrtle Beach Marathon held in Myrtle Beach, SC.",
+      "typical_month": "March",
+      "location": "Myrtle Beach, SC",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "myrtle-beach-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-03-06",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        },
+        {
+          "event_id": "myrtle-beach-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-03-06",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-03-17",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Deadwood Mickelson Trail Marathon",
+      "aliases": [],
+      "website": "https://www.deadwoodmickelsontrailmarathon.com",
+      "description": "Deadwood Mickelson Trail Marathon held in Deadwood, SD.",
+      "typical_month": "June",
+      "location": "Deadwood, SD",
+      "tags": [
+        "state-marathon",
+        "trail"
+      ],
+      "events": [
+        {
+          "event_id": "deadwood-mickelson-trail-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-06-07",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "St. Jude Memphis Marathon",
+      "aliases": [],
+      "website": "https://www.stjude.org/get-involved/fitness-fundraisers/memphis-marathon.html",
+      "description": "St. Jude Memphis Marathon held in Memphis, TN.",
+      "typical_month": "December",
+      "location": "Memphis, TN",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "st-jude-memphis-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-12-05",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Vermont City Marathon",
+      "aliases": [],
+      "website": "https://www.runvermont.org",
+      "description": "Vermont City Marathon held in Burlington, VT.",
+      "typical_month": "May",
+      "location": "Burlington, VT",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "vermont-city-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-24",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "holiday-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": "Typically held on the Sunday of Memorial Day weekend; verify official date as it can vary."
+        },
+        {
+          "event_id": "vermont-city-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-24",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "holiday-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": "Typically held on the Sunday of Memorial Day weekend; verify official date as it can vary."
+        }
+      ]
+    },
+    {
+      "name": "Richmond Marathon",
+      "aliases": [],
+      "website": "https://www.richmondmarathon.org",
+      "description": "Richmond Marathon held in Richmond, VA.",
+      "typical_month": "November",
+      "location": "Richmond, VA",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "richmond-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-21",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 11,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "richmond-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-11-21",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 11,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Seattle Marathon",
+      "aliases": [],
+      "website": "https://www.seattlemarathon.org",
+      "description": "Seattle Marathon held in Seattle, WA.",
+      "typical_month": "November",
+      "location": "Seattle, WA",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "seattle-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-29",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-02",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Freedoms Run",
+      "aliases": [],
+      "website": "https://freedomsrun.org",
+      "description": "Freedoms Run held in Harpers Ferry, WV.",
+      "typical_month": "October",
+      "location": "Harpers Ferry, WV",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "freedom-s-run-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-10",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Typically held second Saturday but not the case for 2026; verify official race date."
+        }
+      ]
+    },
+    {
+      "name": "Madison Marathon",
+      "aliases": [],
+      "website": "https://madisonmarathon.org",
+      "description": "Madison Marathon held in Madison, WI.",
+      "typical_month": "November",
+      "location": "Madison, WI",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "madison-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-15",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": null
+        },
+        {
+          "event_id": "madison-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-11-15",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Typically held 3rd Sunday of November but not the case for 2026; verify official race date."
+        }
+      ]
+    },
+    {
+      "name": "Jackson Hole Marathon",
+      "aliases": [],
+      "website": "https://jacksonholemarathon.com",
+      "description": "Jackson Hole Marathon held in Jackson, WY.",
+      "typical_month": "September",
+      "location": "Jackson, WY",
+      "tags": [
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "jackson-hole-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-09-26",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Miami Marathon",
+      "aliases": [
+        "Miami Marathon \u0026 Half"
+      ],
+      "website": "https://www.themiamimarathon.com",
+      "description": "Scenic international marathon running through Miami and Miami Beach, known for its lively crowd and coastal views.",
+      "typical_month": "January",
+      "location": "Miami, FL",
+      "tags": [
+        "bq-eligible",
+        "coastal",
+        "scenic",
+        "international",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "miami-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2027-01-31",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 1,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Miami date can shift by a week; verify official announcement."
+        },
+        {
+          "event_id": "miami-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-01-31",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 1,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Miami date can shift by a week; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Baltimore Marathon",
+      "aliases": [
+        "Baltimore Running Festival"
+      ],
+      "website": "https://www.thebaltimoremarathon.com",
+      "description": "A major Maryland race with city, waterfront, and historic neighborhoods, part of the Baltimore Running Festival.",
+      "typical_month": "October",
+      "location": "Baltimore, MD",
+      "tags": [
+        "festival",
+        "bq-eligible",
+        "state-marathon",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "baltimore-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-10-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "baltimore-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Detroit Free Press Marathon",
+      "aliases": [
+        "Detroit Marathon"
+      ],
+      "website": "https://www.freepmarathon.com",
+      "description": "International marathon with a unique course crossing into Canada and back, through the Detroit-Windsor Tunnel and Ambassador Bridge.",
+      "typical_month": "October",
+      "location": "Detroit, MI",
+      "tags": [
+        "bq-eligible",
+        "international",
+        "unique-course",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "detroit-free-press-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "detroit-free-press-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Jersey City Marathon",
+      "aliases": [
+        "Jersey City Marathon"
+      ],
+      "website": "https://jerseycitymarathon.com/",
+      "description": "Flat and fast course with waterfront views.",
+      "typical_month": "April",
+      "location": "Jersey City, NJ",
+      "tags": [
+        "flat-course",
+        "coastal",
+        "fast-course",
+        "state-marathon"
+      ],
+      "events": [
+        {
+          "event_id": "new-jersey-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course"
+          ],
+          "next_event_date": "2026-04-19",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Estimated: Jersey City Marathon typically in April; verify official race date."
+        },
+        {
+          "event_id": "new-jersey-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [
+            "fast-course"
+          ],
+          "next_event_date": "2026-04-19",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Estimated: Jersey City Half typically same weekend; verify official race date."
+        }
+      ]
+    },
+    {
+      "name": "Columbus Marathon",
+      "aliases": [
+        "Columbus"
+      ],
+      "website": "https://www.columbusmarathon.com",
+      "description": "One of the Midwest\u0027s largest marathons with fast times, great support, and finishes near downtown Columbus.",
+      "typical_month": "October",
+      "location": "Columbus, OH",
+      "tags": [
+        "bq-eligible",
+        "midwest",
+        "fast-course",
+        "state-marathon",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "columbus-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "columbus-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-18",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Valencia Marathon",
+      "aliases": [
+        "Marat\u00F3n Valencia Trinidad Alfonso"
+      ],
+      "website": "https://www.maratonvalencia.com",
+      "description": "One of Europe\u2019s fastest marathons with big fields and PB potential.",
+      "typical_month": "December",
+      "location": "Valencia, Spain",
+      "tags": [
+        "international",
+        "fast-course",
+        "coastal",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "valencia-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course",
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-12-06",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 12,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Athens Marathon",
+      "aliases": [
+        "Athens Marathon The Authentic"
+      ],
+      "website": "https://athensmarathon.com/",
+      "description": "The \u2018Authentic\u2019 marathon following the original Marathon-to-Athens route.",
+      "typical_month": "November",
+      "location": "Athens, Greece",
+      "tags": [
+        "international",
+        "challenging",
+        "historic"
+      ],
+      "events": [
+        {
+          "event_id": "athens-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-08",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 11,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Rome Marathon",
+      "aliases": [
+        "Run Rome The Marathon"
+      ],
+      "website": "https://www.runromethemarathon.com",
+      "description": "Iconic city marathon passing Rome\u2019s landmarks and cobblestone streets.",
+      "typical_month": "March",
+      "location": "Rome, Italy",
+      "tags": [
+        "international",
+        "historic",
+        "landmarks"
+      ],
+      "events": [
+        {
+          "event_id": "rome-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-03-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 3,
+            "weekday": "Sunday",
+            "n": 4
+          },
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": "Rome Marathon date can shift within March; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Prague Marathon",
+      "aliases": [
+        "Volkswagen Prague Marathon"
+      ],
+      "website": "https://www.runczech.com",
+      "description": "UNESCO city center marathon with classic Old Town scenery.",
+      "typical_month": "May",
+      "location": "Prague, Czech Republic",
+      "tags": [
+        "international",
+        "historic",
+        "landmarks"
+      ],
+      "events": [
+        {
+          "event_id": "prague-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-03",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 5,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Prague date can shift within early May; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Rotterdam Marathon",
+      "aliases": [
+        "NN Marathon Rotterdam"
+      ],
+      "website": "https://www.nnmarathonrotterdam.org",
+      "description": "Flat, fast, and a perennial European PR course.",
+      "typical_month": "April",
+      "location": "Rotterdam, Netherlands",
+      "tags": [
+        "international",
+        "fast-course"
+      ],
+      "events": [
+        {
+          "event_id": "rotterdam-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course",
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-04-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 4,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Rotterdam date can shift; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Barcelona Marathon",
+      "aliases": [
+        "Zurich Marat\u00F3 Barcelona"
+      ],
+      "website": "https://www.zurichmaratobarcelona.es",
+      "description": "Scenic big-city race through Barcelona\u2019s neighborhoods and boulevards.",
+      "typical_month": "March",
+      "location": "Barcelona, Spain",
+      "tags": [
+        "international",
+        "scenic",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "barcelona-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-03-15",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Date corrected from 2026-03-15 to match rule. Barcelona Marathon date can shift within March; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Edinburgh Marathon",
+      "aliases": [
+        "Edinburgh Marathon Festival"
+      ],
+      "website": "https://www.edinburghmarathon.com",
+      "description": "Popular coastal marathon weekend; the half is a co-headliner.",
+      "typical_month": "May",
+      "location": "Edinburgh, Scotland, UK",
+      "tags": [
+        "festival",
+        "international",
+        "coastal"
+      ],
+      "events": [
+        {
+          "event_id": "edinburgh-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-24",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Sunday of the UK Spring Bank Holiday weekend (last Monday in May)"
+        },
+        {
+          "event_id": "edinburgh-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-24",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Sunday of the UK Spring Bank Holiday weekend (last Monday in May)"
+        }
+      ]
+    },
+    {
+      "name": "Stockholm Marathon",
+      "aliases": [
+        "ASICS Stockholm Marathon"
+      ],
+      "website": "https://www.stockholmmarathon.se",
+      "description": "Classic Scandinavian city marathon around Stockholm\u2019s waterways.",
+      "typical_month": "June",
+      "location": "Stockholm, Sweden",
+      "tags": [
+        "international",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "stockholm-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-30",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Stockholm date can vary; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Copenhagen Marathon",
+      "aliases": [],
+      "website": "https://www.copenhagenmarathon.dk",
+      "description": "Flat city marathon with strong crowd support and good organization.",
+      "typical_month": "May",
+      "location": "Copenhagen, Denmark",
+      "tags": [
+        "international",
+        "fast-course",
+        "flat-course"
+      ],
+      "events": [
+        {
+          "event_id": "copenhagen-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-10",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Copenhagen date can vary; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Munich Marathon",
+      "aliases": [
+        "Generali M\u00FCnchen Marathon"
+      ],
+      "website": "https://marathonmuenchen.org",
+      "description": "Major German city marathon finishing in the Olympic Stadium; half and 10K share the weekend.",
+      "typical_month": "October",
+      "location": "Munich, Germany",
+      "tags": [
+        "international",
+        "stadium-finish",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "munich-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Munich date can vary; verify official announcement."
+        },
+        {
+          "event_id": "munich-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 10,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Munich date can vary; verify official announcement."
+        },
+        {
+          "event_id": "munich-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 10,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Lisbon Half Marathon",
+      "aliases": [
+        "EDP Lisbon Half Marathon",
+        "Lisbon Marathon",
+        "EDP Lisbon Marathon"
+      ],
+      "website": "https://www.maratonaclubedeportugal.com",
+      "description": "Scenic, fast half over the Tagus River \u2014 a global PB favorite.",
+      "typical_month": "March",
+      "location": "Lisbon, Portugal",
+      "tags": [
+        "half-marathon",
+        "coastal",
+        "fast-course",
+        "scenic",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "lisbon-half-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-03-08",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 3,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-01",
+          "needs_review": true,
+          "notes": "Lisbon Half can move within March; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Great Manchester Run",
+      "aliases": [],
+      "website": "https://www.greatrun.org/events/great-manchester-run",
+      "description": "Europe\u2019s largest 10K with a companion half on the same weekend.",
+      "typical_month": "May",
+      "location": "Manchester, England, UK",
+      "tags": [
+        "mass-participation",
+        "10k",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "great-manchester-run-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-05-31",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "great-manchester-run-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-31",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Sydney Marathon",
+      "aliases": [
+        "Sydney Marathon Abbott Candidate"
+      ],
+      "website": "https://sydneymarathon.com",
+      "description": "Australia\u2019s largest marathon, a World Marathon Majors candidate with a scenic course over the Sydney Harbour Bridge.",
+      "typical_month": "September",
+      "location": "Sydney, Australia",
+      "tags": [
+        "world-major",
+        "international",
+        "scenic",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "sydney-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-08-30",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Sydney Marathon date has shifted historically; verify annually."
+        },
+        {
+          "event_id": "sydney-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-08-30",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Sydney Marathon date has shifted historically; verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Cape Town Marathon",
+      "aliases": [
+        "Sanlam Cape Town Marathon"
+      ],
+      "website": "https://www.capetownmarathon.com",
+      "description": "Africa\u2019s premier city marathon and a World Marathon Majors candidate, scenic coastal course.",
+      "typical_month": "October",
+      "location": "Cape Town, South Africa",
+      "tags": [
+        "coastal",
+        "scenic",
+        "international",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "cape-town-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-24",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Osaka Marathon",
+      "aliases": [],
+      "website": "https://www.osaka-marathon.com",
+      "description": "One of Japan\u2019s largest city marathons, drawing over 30,000 runners.",
+      "typical_month": "February",
+      "location": "Osaka, Japan",
+      "tags": [
+        "international",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "osaka-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-02-22",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Standard Chartered Singapore Marathon",
+      "aliases": [
+        "Singapore Marathon"
+      ],
+      "website": "https://singaporemarathon.com",
+      "description": "Singapore\u2019s signature marathon, a World Athletics Gold Label race held in tropical conditions.",
+      "typical_month": "December",
+      "location": "Singapore",
+      "tags": [
+        "international",
+        "tropical",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "singapore-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-12-13",
+          "date_rule": null,
+          "date_confidence": "low",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "no date for 2026 yet"
+        },
+        {
+          "event_id": "singapore-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-12-13",
+          "date_rule": null,
+          "date_confidence": "low",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "no date for 2026 yet"
+        }
+      ]
+    },
+    {
+      "name": "Antarctica Marathon",
+      "aliases": [
+        "King George Island Marathon"
+      ],
+      "website": "https://marathontours.com/en-us/events/antarctica-marathon/",
+      "description": "One of the most remote marathons in the world, held on King George Island in Antarctica. Limited capacity due to travel logistics.",
+      "typical_month": "March",
+      "location": "King George Island, Antarctica",
+      "tags": [
+        "destination",
+        "bucket-list",
+        "remote",
+        "ultra-unique"
+      ],
+      "events": [
+        {
+          "event_id": "antarctica-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-03-09",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-03",
+          "needs_review": false,
+          "notes": "Antarctica Marathon is announcement-driven; verify official date.  Look for a second date."
+        }
+      ]
+    },
+    {
+      "name": "Great Wall Marathon",
+      "aliases": [
+        "China Wall Marathon"
+      ],
+      "website": "https://great-wall-marathon.com",
+      "description": "Marathon across the Great Wall of China. Extremely hilly, scenic, and historic.",
+      "typical_month": "May",
+      "location": "Tianjin, China",
+      "tags": [
+        "international",
+        "challenging",
+        "scenic",
+        "bucket-list"
+      ],
+      "events": [
+        {
+          "event_id": "great-wall-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-16",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Great Wall Marathon date varies by organizer; estimated as 3rd Saturday of May\u2014verify on official site."
+        }
+      ]
+    },
+    {
+      "name": "Lewa Safari Marathon",
+      "aliases": [],
+      "website": "https://lewasafarimarathon.com",
+      "description": "Trail marathon through a Kenyan wildlife conservancy with elephants, giraffes, and stunning views.",
+      "typical_month": "June",
+      "location": "Lewa, Kenya",
+      "tags": [
+        "wildlife",
+        "trail",
+        "scenic",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "lewa-safari-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-06-27",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 6,
+            "weekday": "Saturday"
+          },
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": null,
+          "last_verified_date": "2026-02-03",
+          "needs_review": false,
+          "notes": "Lewa Safari Marathon can vary; verify official date."
+        }
+      ]
+    },
+    {
+      "name": "Ultra-Trail du Mont-Blanc (UTMB)",
+      "aliases": [
+        "UTMB",
+        "Mont Blanc Ultra"
+      ],
+      "website": "https://montblanc.utmb.world/races/UTMB",
+      "description": "The premier mountain ultramarathon in the world, circling Mont Blanc through France, Italy, and Switzerland.",
+      "typical_month": "August",
+      "location": "Chamonix, France / Courmayeur, Italy / Champex, Switzerland",
+      "tags": [
+        "elite",
+        "mountain",
+        "ultra",
+        "trail",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "utmb-ultramarathon",
+          "name": "Ultramarathon",
+          "distance_label": "106 miles",
+          "distance_miles": 106,
+          "tags": [],
+          "next_event_date": "2026-08-28",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 8,
+            "weekday": "Friday"
+          },
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "UTMB week is late Aug; verify official schedule."
+        }
+      ]
+    },
+    {
+      "name": "Garden of the Gods 10 Mile Run",
+      "aliases": [
+        "Garden of the Gods 10K",
+        "Garden 10 Mile"
+      ],
+      "website": "https://gardentenmile.com",
+      "description": "Challenging and scenic race through the red rock formations of Garden of the Gods park in Colorado Springs.",
+      "typical_month": "June",
+      "location": "Colorado Springs, CO",
+      "tags": [
+        "mountain",
+        "challenging",
+        "altitude",
+        "scenic",
+        "10-mile"
+      ],
+      "events": [
+        {
+          "event_id": "garden-of-the-gods-10mile",
+          "name": "10 Mile",
+          "distance_label": "10 miles",
+          "distance_miles": 10.0,
+          "tags": [],
+          "next_event_date": "2026-06-14",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 6,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 2nd Sunday of June; verify annually."
+        },
+        {
+          "event_id": "garden-of-the-gods-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-06-14",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 6,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 2nd Sunday of June; verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Bermuda Marathon",
+      "aliases": [
+        "Bermuda Triangle Challenge"
+      ],
+      "website": "https://www.bermudaraceweekend.com",
+      "description": "A scenic island marathon featuring pink beaches, coastal roads, and a festive multi-race weekend.",
+      "typical_month": "January",
+      "location": "Hamilton, Bermuda",
+      "tags": [
+        "destination",
+        "coastal",
+        "scenic",
+        "multi-day",
+        "international",
+        "island"
+      ],
+      "events": [
+        {
+          "event_id": "bermuda-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-01-17",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 3rd Sunday of January; Bermuda Marathon Weekend varies\u2014verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Rio de Janeiro Marathon",
+      "aliases": [
+        "Maratona do Rio"
+      ],
+      "website": "https://www.maratonadorio.com.br",
+      "description": "One of the most scenic marathons in the world, running along Rio\u0027s coastline and major landmarks.",
+      "typical_month": "June",
+      "location": "Rio de Janeiro, Brazil",
+      "tags": [
+        "international",
+        "scenic",
+        "coastal",
+        "big-city"
+      ],
+      "events": [
+        {
+          "event_id": "rio-de-janeiro-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-06-07",
+          "date_rule": null,
+          "date_confidence": "low",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 3rd Sunday of June; Rio date varies\u2014verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Cayman Islands Marathon",
+      "aliases": [
+        "Intertrust Cayman Islands Marathon"
+      ],
+      "website": "https://www.caymanislandsmarathon.com",
+      "description": "Tropical destination race held in George Town, Grand Cayman with marathon, half, and relay options.",
+      "typical_month": "December",
+      "location": "George Town, Cayman Islands",
+      "tags": [
+        "relay",
+        "destination",
+        "international",
+        "tropical",
+        "island"
+      ],
+      "events": [
+        {
+          "event_id": "cayman-islands-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-12-06",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 12,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 1st Sunday of December; verify annually."
+        },
+        {
+          "event_id": "cayman-islands-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-12-06",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 12,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Estimated as 1st Sunday of December; verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Helsinki City Marathon",
+      "aliases": [],
+      "website": "https://helsinkicityrunningday.fi",
+      "description": "Finland\u2019s largest marathon, part of the Helsinki City Running Day with various race formats.",
+      "typical_month": "May",
+      "location": "Helsinki, Finland",
+      "tags": [
+        "northern",
+        "international",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "helsinki-city-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-05-16",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Estimated as 2nd Saturday of May; Helsinki event weekend can vary\u2014verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Reykjavik Marathon",
+      "aliases": [],
+      "website": "https://www.rmi.is/en/marathon",
+      "description": "Marathon held during Reykjavik Culture Night in Iceland\u0027s capital with marathon, half, and 10K options.",
+      "typical_month": "August",
+      "location": "Reykjavik, Iceland",
+      "tags": [
+        "destination",
+        "northern",
+        "coastal",
+        "international",
+        "night-race"
+      ],
+      "events": [
+        {
+          "event_id": "reykjavik-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-08-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 8,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "This race is uniquely anchored to a national event of Reykjav\u00EDk Culture Night (Menningarn\u00F3tt)"
+        },
+        {
+          "event_id": "reykjavik-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-08-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 8,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": "This race is uniquely anchored to a national event of Reykjav\u00EDk Culture Night (Menningarn\u00F3tt)"
+        },
+        {
+          "event_id": "reykjavik-marathon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-08-22",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 8,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": "This race is uniquely anchored to a national event of Reykjav\u00EDk Culture Night (Menningarn\u00F3tt)"
+        }
+      ]
+    },
+    {
+      "name": "Dublin Marathon",
+      "aliases": [
+        "Irish Life Dublin Marathon"
+      ],
+      "website": "https://www.irishlifedublinmarathon.ie",
+      "description": "Ireland\u2019s largest marathon, winding through the heart of Dublin with huge local support.",
+      "typical_month": "October",
+      "location": "Dublin, Ireland",
+      "tags": [
+        "international",
+        "mass-participation",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "dublin-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-10-25",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 10,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Napoli City Half Marathon",
+      "aliases": [
+        "Naples Half Marathon"
+      ],
+      "website": "https://www.napolirunning.com",
+      "description": "Fast and scenic half marathon along the Naples coast, one of Italy\u2019s premier spring races.",
+      "typical_month": "February",
+      "location": "Naples, Italy",
+      "tags": [
+        "half-marathon",
+        "coastal",
+        "fast-course",
+        "scenic",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "napoli-city-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-02-22",
+          "date_rule": {
+            "type": "last_weekday",
+            "month": 2,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Napoli City Half date varies within February; estimated as last Sunday of February\u2014verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Auckland Marathon",
+      "aliases": [],
+      "website": "https://aucklandmarathon.co.nz",
+      "description": "New Zealand\u2019s premier marathon crossing the Auckland Harbour Bridge with stunning views.",
+      "typical_month": "October",
+      "location": "Auckland, New Zealand",
+      "tags": [
+        "international",
+        "southern-hemisphere",
+        "coastal"
+      ],
+      "events": [
+        {
+          "event_id": "auckland-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-01",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Sunday of the Auckland Anniversary holiday weekend (late Oct / early Nov)"
+        },
+        {
+          "event_id": "auckland-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-11-01",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Sunday of the Auckland Anniversary holiday weekend (late Oct / early Nov)"
+        }
+      ]
+    },
+    {
+      "name": "Two Oceans Marathon",
+      "aliases": [],
+      "website": "https://www.twooceansmarathon.org.za",
+      "description": "Iconic ultramarathon in Cape Town, South Africa, running between the Indian and Atlantic Oceans.",
+      "typical_month": "April",
+      "location": "Cape Town, South Africa",
+      "tags": [
+        "historic",
+        "coastal",
+        "ultra",
+        "scenic",
+        "international"
+      ],
+      "events": [
+        {
+          "event_id": "two-oceans-ultramarathon",
+          "name": "Ultramarathon",
+          "distance_label": "56K",
+          "distance_miles": 34.8,
+          "tags": [],
+          "next_event_date": "2026-04-11",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 4,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": "Two Oceans Marathon is organizer-dependent (often around mid/late April); estimated as 3rd Saturday of April\u2014verify annually."
+        },
+        {
+          "event_id": "two-oceans-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-04-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 4,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": "Half is typically the same weekend; estimated as 3rd Sunday of April\u2014verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Istanbul Marathon",
+      "aliases": [
+        "Vodafone Istanbul Marathon"
+      ],
+      "website": "https://maraton.istanbul",
+      "description": "The only marathon in the world that crosses two continents \u2014 from Asia to Europe \u2014 via the Bosphorus Bridge.",
+      "typical_month": "November",
+      "location": "Istanbul, Turkey",
+      "tags": [
+        "international",
+        "unique-course",
+        "continental-crossing"
+      ],
+      "events": [
+        {
+          "event_id": "istanbul-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-11-01",
+          "date_rule": {
+            "type": "first_weekday",
+            "month": 11,
+            "weekday": "Sunday"
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Tahoe Rim Trail Endurance Runs",
+      "aliases": [
+        "TRT Endurance Runs"
+      ],
+      "website": "https://trter.com/",
+      "description": "High-altitude trail ultras including 50K, 55K, and 100-mile options around Lake Tahoe.",
+      "typical_month": "July",
+      "location": "Lake Tahoe, NV",
+      "tags": [
+        "high-altitude",
+        "trail",
+        "ultra",
+        "mountain"
+      ],
+      "events": [
+        {
+          "event_id": "tahoe-rim-trail-100m",
+          "name": "100 Mile",
+          "distance_label": "100 miles",
+          "distance_miles": 100.0,
+          "tags": [],
+          "next_event_date": "2026-07-18",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "tahoe-rim-trail-55k",
+          "name": "55K",
+          "distance_label": "55K",
+          "distance_miles": 34.2,
+          "tags": [],
+          "next_event_date": "2026-07-18",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Imogene Pass Run",
+      "aliases": [],
+      "website": "https://www.imogenerun.com",
+      "description": "17.1-mile point-to-point mountain run from Ouray to Telluride, Colorado over the 13,114-ft Imogene Pass.",
+      "typical_month": "September",
+      "location": "Ouray to Telluride, CO",
+      "tags": [
+        "high-altitude",
+        "trail",
+        "point-to-point",
+        "mountain"
+      ],
+      "events": [
+        {
+          "event_id": "imogene-pass-run",
+          "name": "Mountain Run",
+          "distance_label": "17.1 miles",
+          "distance_miles": 17.1,
+          "tags": [],
+          "next_event_date": "2026-09-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 9,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Pikes Peak Marathon and Ascent",
+      "aliases": [
+        "Pikes Peak Ascent"
+      ],
+      "website": "https://www.pikespeakmarathon.org",
+      "description": "Famous high-altitude trail race climbing and descending Pikes Peak \u2014 or just ascending in the \u0027Ascent\u0027.",
+      "typical_month": "August",
+      "location": "Manitou Springs, CO",
+      "tags": [
+        "high-altitude",
+        "trail",
+        "ultra",
+        "mountain"
+      ],
+      "events": [
+        {
+          "event_id": "pikes-peak-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-09-20",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 9,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "pikes-peak-ascent",
+          "name": "Ascent",
+          "distance_label": "13.32 miles",
+          "distance_miles": 13.32,
+          "tags": [],
+          "next_event_date": "2026-09-19",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 9,
+            "weekday": "Saturday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Cherry Blossom Ten Mile Run",
+      "aliases": [
+        "Credit Union Cherry Blossom 10 Mile"
+      ],
+      "website": "https://www.cherryblossom.org",
+      "description": "Iconic 10-mile race in Washington, DC during peak cherry blossom season, drawing elite and recreational runners.",
+      "typical_month": "April",
+      "location": "Washington, DC",
+      "tags": [
+        "spring",
+        "scenic",
+        "urban",
+        "10-mile"
+      ],
+      "events": [
+        {
+          "event_id": "cherry-blossom-10-mile",
+          "name": "10 Mile",
+          "distance_label": "10 miles",
+          "distance_miles": 10.0,
+          "tags": [],
+          "next_event_date": "2026-04-12",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "The race is tied to peak bloom tourism."
+        }
+      ]
+    },
+    {
+      "name": "Walt Disney World Marathon",
+      "aliases": [
+        "RunDisney Marathon"
+      ],
+      "website": "https://www.rundisney.com",
+      "description": "A fun, themed marathon through Disney parks in Florida, part of a multi-day race weekend including the Dopey Challenge.",
+      "typical_month": "January",
+      "location": "Orlando, FL",
+      "tags": [
+        "multi-day",
+        "theme-park",
+        "fun-run",
+        "destination"
+      ],
+      "events": [
+        {
+          "event_id": "disney-world-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-01-10",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        },
+        {
+          "event_id": "disney-world-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-01-09",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Kauai Marathon",
+      "aliases": [],
+      "website": "https://www.thekauaimarathon.com",
+      "description": "Tropical marathon and half on the scenic island of Kauai, Hawaii with lush mountain and ocean views.",
+      "typical_month": "September",
+      "location": "Poipu, Kauai, HI",
+      "tags": [
+        "destination",
+        "mountain",
+        "scenic",
+        "tropical",
+        "island"
+      ],
+      "events": [
+        {
+          "event_id": "kauai-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-09-06",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Labor Day Weekend holiday."
+        },
+        {
+          "event_id": "kauai-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-09-06",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Labor Day Weekend holiday."
+        }
+      ]
+    },
+    {
+      "name": "Falmouth Road Race",
+      "aliases": [],
+      "website": "https://falmouthroadrace.com",
+      "description": "Historic 7-mile road race on Cape Cod, Massachusetts, known for its summer timing and elite field.",
+      "typical_month": "August",
+      "location": "Falmouth, MA",
+      "tags": [
+        "summer",
+        "historic",
+        "coastal",
+        "7-mile"
+      ],
+      "events": [
+        {
+          "event_id": "falmouth-road-race",
+          "name": "7 Mile",
+          "distance_label": "7 miles",
+          "distance_miles": 7.0,
+          "tags": [],
+          "next_event_date": "2026-08-16",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 8,
+            "weekday": "Sunday",
+            "n": 3
+          },
+          "date_confidence": "high",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": false,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "name": "Red Rock Canyon Half Marathon",
+      "aliases": [],
+      "website": "https://www.calicoracing.com/events/red-rock-canyon/",
+      "description": "Challenging half marathon through the scenic and hilly Red Rock Canyon outside Las Vegas.",
+      "typical_month": "February",
+      "location": "Red Rock Canyon, NV",
+      "tags": [
+        "desert",
+        "trail",
+        "challenging",
+        "scenic"
+      ],
+      "events": [
+        {
+          "event_id": "red-rock-canyon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2027-01-23",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Saturday",
+            "n": 4
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        },
+        {
+          "event_id": "red-rock-canyon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2027-01-23",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Saturday",
+            "n": 4
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        },
+        {
+          "event_id": "red-rock-canyon-5k",
+          "name": "5K",
+          "distance_label": "3.1 miles",
+          "distance_miles": 3.1,
+          "tags": [],
+          "next_event_date": "2027-01-23",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 1,
+            "weekday": "Saturday",
+            "n": 4
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": false,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Cooper River Bridge Run",
+      "aliases": [],
+      "website": "https://bridgerun.com",
+      "description": "Massive 10K event over the Arthur Ravenel Jr. Bridge from Mt. Pleasant to Charleston, SC.",
+      "typical_month": "April",
+      "location": "Charleston, SC",
+      "tags": [
+        "coastal",
+        "bridge",
+        "10k",
+        "mass-participation"
+      ],
+      "events": [
+        {
+          "event_id": "cooper-river-bridge-run-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-03-28",
+          "date_rule": null,
+          "date_confidence": "high",
+          "date_method": "official",
+          "date_source": "bridgerun.com official announcement",
+          "last_verified_date": "2026-02-05",
+          "needs_review": false,
+          "notes": "Official date March 28, 2026 (Saturday). Does not follow 4th Saturday of April pattern. Verify annually."
+        }
+      ]
+    },
+    {
+      "name": "Mad Marathon",
+      "aliases": [],
+      "website": "https://www.madmarathon.com",
+      "description": "Scenic marathon and half in Vermont\u2019s Mad River Valley, dubbed \u0027The World\u2019s Most Beautiful Marathon.\u0027",
+      "typical_month": "July",
+      "location": "Waitsfield, VT",
+      "tags": [
+        "scenic",
+        "rural",
+        "vermont"
+      ],
+      "events": [
+        {
+          "event_id": "mad-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [],
+          "next_event_date": "2026-07-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 7,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        },
+        {
+          "event_id": "mad-marathon-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-07-12",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 7,
+            "weekday": "Sunday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Monument Avenue 10K",
+      "aliases": [],
+      "website": "https://www.sportsbackers.org/event/ukrops-monument-avenue-10k/",
+      "description": "Popular 10K in Richmond, Virginia with thousands of participants along historic Monument Avenue.",
+      "typical_month": "April",
+      "location": "Richmond, VA",
+      "tags": [
+        "historic",
+        "mass-participation",
+        "10k",
+        "urban"
+      ],
+      "events": [
+        {
+          "event_id": "monument-avenue-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-04-18",
+          "date_rule": null,
+          "date_confidence": "medium",
+          "date_method": "estimated",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Ice Age Trail 50",
+      "aliases": [],
+      "website": "https://www.iceagetrail50.com",
+      "description": "One of the oldest and most respected ultramarathons in the Midwest, run on Wisconsin\u2019s Ice Age Trail.",
+      "typical_month": "May",
+      "location": "LaGrange, WI",
+      "tags": [
+        "trail",
+        "ultra",
+        "historic",
+        "midwest"
+      ],
+      "events": [
+        {
+          "event_id": "ice-age-trail-50-mile",
+          "name": "50 Mile",
+          "distance_label": "50 miles",
+          "distance_miles": 50.0,
+          "tags": [],
+          "next_event_date": "2026-05-09",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        },
+        {
+          "event_id": "ice-age-trail-50k",
+          "name": "50K",
+          "distance_label": "50K",
+          "distance_miles": 31.1,
+          "tags": [],
+          "next_event_date": "2026-05-09",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        },
+        {
+          "event_id": "ice-age-trail-half-marathon",
+          "name": "Half Marathon",
+          "distance_label": "13.1 miles",
+          "distance_miles": 13.1,
+          "tags": [],
+          "next_event_date": "2026-05-09",
+          "date_rule": {
+            "type": "nth_weekday",
+            "month": 5,
+            "weekday": "Saturday",
+            "n": 2
+          },
+          "date_confidence": "medium",
+          "date_method": "rule-based",
+          "date_source": null,
+          "last_verified_date": "2026-02-06",
+          "needs_review": true,
+          "notes": "Bulk-estimated from typical_month; verify official announcement."
+        }
+      ]
+    },
+    {
+      "name": "Seoul Marathon",
+      "aliases": [
+        "Seoul International Marathon",
+        "Dong-A Marathon"
+      ],
+      "website": "https://seoul-marathon.com",
+      "description": "One of Asia\u2019s oldest and fastest marathons, held annually in Seoul, South Korea. A World Athletics Platinum Label race with elite competition and a fast, point-to-point course.",
+      "typical_month": "March",
+      "location": "Seoul, South Korea",
+      "tags": [
+        "international",
+        "fast-course",
+        "platinum-label",
+        "point-to-point",
+        "elite"
+      ],
+      "events": [
+        {
+          "event_id": "seoul-marathon-marathon",
+          "name": "Marathon",
+          "distance_label": "26.2 miles",
+          "distance_miles": 26.2,
+          "tags": [
+            "fast-course",
+            "bq-eligible"
+          ],
+          "next_event_date": "2026-03-15",
+          "date_rule": null,
+          "date_confidence": "low",
+          "date_method": "estimated",
+          "date_source": "rule-based estimate",
+          "last_verified_date": "2026-02-04",
+          "needs_review": true,
+          "notes": "Invalid date_rule type removed. Original: mid_month_estimate. Verify official date."
+        }
+      ]
+    }
+  ]
+}
