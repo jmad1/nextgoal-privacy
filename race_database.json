@@ -1,5 +1,4 @@
 {
-  "db_version": 2,
   "races": [
     {
       "name": "Boston Marathon",
@@ -24,7 +23,7 @@
           "tags": [
             "bq-eligible"
           ],
-          "next_event_date": "2026-04-20",
+          "next_event_date": "2027-04-19",
           "date_rule": {
             "type": "nth_weekday",
             "month": 4,
@@ -32,11 +31,11 @@
             "n": 3
           },
           "date_confidence": "high",
-          "date_method": "rule-based",
-          "date_source": null,
-          "last_verified_date": "2026-02-01",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
           "needs_review": false,
-          "notes": null
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -80,7 +79,7 @@
           "event_id": "chicago-marathon-5k",
           "name": "5K",
           "distance_label": "5K",
-          "distance_miles": 3.2,
+          "distance_miles": 3.1,
           "tags": [],
           "next_event_date": "2026-10-10",
           "date_rule": null,
@@ -149,14 +148,14 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-04-26",
+          "next_event_date": "2027-04-25",
           "date_rule": null,
           "date_confidence": "high",
-          "date_method": "estimated",
-          "date_source": "rule-based estimate",
-          "last_verified_date": "2026-02-03",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
           "needs_review": false,
-          "notes": null
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -355,7 +354,7 @@
           "distance_label": "12K",
           "distance_miles": 7.46,
           "tags": [],
-          "next_event_date": "2026-05-17",
+          "next_event_date": "2027-05-16",
           "date_rule": {
             "type": "nth_weekday",
             "month": 5,
@@ -363,11 +362,11 @@
             "n": 3
           },
           "date_confidence": "high",
-          "date_method": "rule-based",
-          "date_source": null,
-          "last_verified_date": "2026-02-01",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
           "needs_review": false,
-          "notes": null
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -426,9 +425,9 @@
         },
         {
           "event_id": "rock-n-roll-las-vegas-marathon-5k",
-          "name": "5k",
-          "distance_label": "5k",
-          "distance_miles": 3.11,
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.1,
           "tags": [],
           "next_event_date": "2027-02-20",
           "date_rule": null,
@@ -1447,14 +1446,14 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-05-16",
+          "next_event_date": "2027-05-15",
           "date_rule": null,
           "date_confidence": "high",
-          "date_method": "estimated",
-          "date_source": "rule-based estimate",
-          "last_verified_date": "2026-02-02",
-          "needs_review": true,
-          "notes": null
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -1831,18 +1830,18 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-05-03",
+          "next_event_date": "2027-05-02",
           "date_rule": {
             "type": "first_weekday",
             "month": 5,
             "weekday": "Sunday"
           },
           "date_confidence": "high",
-          "date_method": "estimated",
-          "date_source": "rule-based estimate",
-          "last_verified_date": "2026-02-01",
-          "needs_review": true,
-          "notes": null
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         },
         {
           "event_id": "lincoln-marathon-half-marathon",
@@ -1948,7 +1947,7 @@
           "event_id": "duke-city-marathon-5k",
           "name": "5K",
           "distance_label": "5K",
-          "distance_miles": 3.11,
+          "distance_miles": 3.1,
           "tags": [],
           "next_event_date": "2026-10-18",
           "date_rule": {
@@ -2874,7 +2873,7 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-03-22",
+          "next_event_date": "2027-03-14",
           "date_rule": {
             "type": "nth_weekday",
             "month": 3,
@@ -2882,11 +2881,11 @@
             "n": 4
           },
           "date_confidence": "high",
-          "date_method": "official",
-          "date_source": null,
-          "last_verified_date": "2026-02-04",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
           "needs_review": false,
-          "notes": "Rome Marathon date can shift within March; verify official announcement."
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -2986,14 +2985,14 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-03-15",
+          "next_event_date": "2027-03-14",
           "date_rule": null,
           "date_confidence": "medium",
-          "date_method": "official",
-          "date_source": null,
-          "last_verified_date": "2026-02-06",
-          "needs_review": true,
-          "notes": "Date corrected from 2026-03-15 to match rule. Barcelona Marathon date can shift within March; verify official announcement."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-04-16",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -3094,14 +3093,14 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-05-10",
+          "next_event_date": "2027-05-09",
           "date_rule": null,
           "date_confidence": "medium",
-          "date_method": "official",
-          "date_source": null,
-          "last_verified_date": "2026-02-06",
-          "needs_review": true,
-          "notes": "Copenhagen date can vary; verify official announcement."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -3206,7 +3205,7 @@
           "distance_label": "13.1 miles",
           "distance_miles": 13.1,
           "tags": [],
-          "next_event_date": "2026-03-08",
+          "next_event_date": "2026-10-10",
           "date_rule": {
             "type": "nth_weekday",
             "month": 3,
@@ -3214,11 +3213,11 @@
             "n": 2
           },
           "date_confidence": "medium",
-          "date_method": "estimated",
-          "date_source": null,
-          "last_verified_date": "2026-02-01",
-          "needs_review": true,
-          "notes": "Lisbon Half can move within March; verify official announcement."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -3446,14 +3445,14 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-03-09",
+          "next_event_date": "2027-03-08",
           "date_rule": null,
           "date_confidence": "high",
-          "date_method": "official",
-          "date_source": null,
-          "last_verified_date": "2026-02-03",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-04-16",
           "needs_review": false,
-          "notes": "Antarctica Marathon is announcement-driven; verify official date.  Look for a second date."
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -3479,7 +3478,7 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-05-16",
+          "next_event_date": "2027-05-15",
           "date_rule": {
             "type": "nth_weekday",
             "month": 5,
@@ -3487,11 +3486,11 @@
             "n": 3
           },
           "date_confidence": "medium",
-          "date_method": "rule-based",
-          "date_source": null,
-          "last_verified_date": "2026-02-04",
-          "needs_review": true,
-          "notes": "Great Wall Marathon date varies by organizer; estimated as 3rd Saturday of May\u2014verify on official site."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -3778,7 +3777,7 @@
           "distance_label": "26.2 miles",
           "distance_miles": 26.2,
           "tags": [],
-          "next_event_date": "2026-05-16",
+          "next_event_date": "2027-05-08",
           "date_rule": {
             "type": "nth_weekday",
             "month": 5,
@@ -3786,11 +3785,11 @@
             "n": 3
           },
           "date_confidence": "medium",
-          "date_method": "rule-based",
-          "date_source": null,
-          "last_verified_date": "2026-02-06",
-          "needs_review": true,
-          "notes": "Estimated as 2nd Saturday of May; Helsinki event weekend can vary\u2014verify annually."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -4456,7 +4455,7 @@
         {
           "event_id": "red-rock-canyon-5k",
           "name": "5K",
-          "distance_label": "3.1 miles",
+          "distance_label": "5K",
           "distance_miles": 3.1,
           "tags": [],
           "next_event_date": "2027-01-23",
@@ -4495,14 +4494,14 @@
           "distance_label": "10K",
           "distance_miles": 6.21,
           "tags": [],
-          "next_event_date": "2026-03-28",
+          "next_event_date": "2027-04-03",
           "date_rule": null,
           "date_confidence": "high",
-          "date_method": "official",
-          "date_source": "bridgerun.com official announcement",
-          "last_verified_date": "2026-02-05",
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-04-16",
           "needs_review": false,
-          "notes": "Official date March 28, 2026 (Saturday). Does not follow 4th Saturday of April pattern. Verify annually."
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -4581,14 +4580,14 @@
           "distance_label": "10K",
           "distance_miles": 6.21,
           "tags": [],
-          "next_event_date": "2026-04-18",
+          "next_event_date": "2027-04-17",
           "date_rule": null,
           "date_confidence": "medium",
-          "date_method": "estimated",
-          "date_source": null,
-          "last_verified_date": "2026-02-06",
-          "needs_review": true,
-          "notes": "Bulk-estimated from typical_month; verify official announcement."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     },
@@ -4695,14 +4694,14 @@
             "fast-course",
             "bq-eligible"
           ],
-          "next_event_date": "2026-03-15",
+          "next_event_date": "2027-03-21",
           "date_rule": null,
           "date_confidence": "low",
-          "date_method": "estimated",
-          "date_source": "rule-based estimate",
-          "last_verified_date": "2026-02-04",
-          "needs_review": true,
-          "notes": "Invalid date_rule type removed. Original: mid_month_estimate. Verify official date."
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
       ]
     }
