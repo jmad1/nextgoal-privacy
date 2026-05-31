@@ -1,5 +1,5 @@
 {
-  "db_version": 3,
+  "db_version": 4,
   "races": [
     {
       "name": "Boston Marathon",
@@ -4701,6 +4701,303 @@
           "date_method": "nextgoal-sync",
           "date_source": "Manual Entry",
           "last_verified_date": "2026-05-24",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "TD Beach to Beacon 10K",
+      "aliases": [
+        "Beach to Beacon"
+      ],
+      "website": "https://www.beachtobeacon.org",
+      "description": "Elite and mass-participation 10K in Cape Elizabeth, Maine.",
+      "typical_month": "August",
+      "location": "Cape Elizabeth, ME",
+      "tags": [
+        "10k",
+        "elite",
+        "fast-course"
+      ],
+      "events": [
+        {
+          "event_id": "td-beach-to-beacon-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-08-01",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "BAA 10K",
+      "aliases": [],
+      "website": "https://www.baa.org",
+      "description": "Popular Boston-area 10K organized by the BAA.",
+      "typical_month": "June",
+      "location": "Boston, MA",
+      "tags": [
+        "10k",
+        "baa"
+      ],
+      "events": [
+        {
+          "event_id": "baa-10k",
+          "name": "10K",
+          "distance_label": "10K",
+          "distance_miles": 6.21,
+          "tags": [],
+          "next_event_date": "2026-06-21",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Gate River Run",
+      "aliases": [],
+      "website": "https://www.gateriverrun15k.com",
+      "description": "America\u0027s largest 15K road race.",
+      "typical_month": "March",
+      "location": "Jacksonville, FL",
+      "tags": [
+        "15k",
+        "historic"
+      ],
+      "events": [
+        {
+          "event_id": "gate-river-run-15k",
+          "name": "15K",
+          "distance_label": "15K",
+          "distance_miles": 9.32,
+          "tags": [],
+          "next_event_date": "2026-03-07",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Army Ten-Miler",
+      "aliases": [],
+      "website": "https://www.armytenmiler.com",
+      "description": "Iconic 10-mile race in Washington, DC.",
+      "typical_month": "October",
+      "location": "Washington, DC",
+      "tags": [
+        "10-mile",
+        "military"
+      ],
+      "events": [
+        {
+          "event_id": "army-ten-miler",
+          "name": "10 Mile",
+          "distance_label": "10 Mile",
+          "distance_miles": 10.0,
+          "tags": [],
+          "next_event_date": "2026-10-11",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Carlsbad 5000",
+      "aliases": [],
+      "website": "https://www.carlsbad5000.com",
+      "description": "One of the premier road 5Ks in the United States.",
+      "typical_month": "April",
+      "location": "Carlsbad, CA",
+      "tags": [
+        "5k",
+        "elite"
+      ],
+      "events": [
+        {
+          "event_id": "carlsbad-5000-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.1,
+          "tags": [],
+          "next_event_date": "2027-04-04",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "BAA 5K",
+      "aliases": [],
+      "website": "https://www.baa.org",
+      "description": "Boston Marathon weekend 5K.",
+      "typical_month": "April",
+      "location": "Boston, MA",
+      "tags": [
+        "5k",
+        "baa"
+      ],
+      "events": [
+        {
+          "event_id": "baa-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.1,
+          "tags": [],
+          "next_event_date": "2026-06-21",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Freihofer\u0027s Run for Women",
+      "aliases": [],
+      "website": "https://www.freihofersrun.com",
+      "description": "Notable women\u0027s 5K race.",
+      "typical_month": "June",
+      "location": "Albany, NY",
+      "tags": [
+        "5k",
+        "women"
+      ],
+      "events": [
+        {
+          "event_id": "freihofers-run-for-women-5k",
+          "name": "5K",
+          "distance_label": "5K",
+          "distance_miles": 3.1,
+          "tags": [],
+          "next_event_date": "2026-05-31",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Credit Union Cherry Blossom 10 Mile",
+      "aliases": [
+        "Cherry Blossom 10 Mile"
+      ],
+      "website": "https://www.cherryblossom.org",
+      "description": "Prestigious spring 10-mile race in Washington, DC.",
+      "typical_month": "April",
+      "location": "Washington, DC",
+      "tags": [
+        "10-mile",
+        "elite"
+      ],
+      "events": [
+        {
+          "event_id": "credit-union-cherry-blossom-10-mile",
+          "name": "10 MILE",
+          "distance_label": "10 MILE",
+          "distance_miles": 10.0,
+          "tags": [],
+          "next_event_date": "2027-04-04",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Broad Street Run",
+      "aliases": [],
+      "website": "https://www.broadstreetrun.com",
+      "description": "America\u0027s largest 10-mile road race.",
+      "typical_month": "May",
+      "location": "Philadelphia, PA",
+      "tags": [
+        "10-mile",
+        "mass-participation"
+      ],
+      "events": [
+        {
+          "event_id": "broad-street-run",
+          "name": "10 MILE",
+          "distance_label": "10 MILE",
+          "distance_miles": 10.0,
+          "tags": [],
+          "next_event_date": "2026-05-03",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
+          "needs_review": false,
+          "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
+        }
+      ]
+    },
+    {
+      "name": "Shamrock Shuffle",
+      "aliases": [
+        "Shamrock Shuffle 8K"
+      ],
+      "website": "https://www.shamrockshuffle.com",
+      "description": "Iconic Chicago spring tune-up race.",
+      "typical_month": "March",
+      "location": "Chicago, IL",
+      "tags": [
+        "8k",
+        "historic"
+      ],
+      "events": [
+        {
+          "event_id": "shamrock-shuffle",
+          "name": "8K",
+          "distance_label": "8K",
+          "distance_miles": 4.97,
+          "tags": [],
+          "next_event_date": "2027-03-21",
+          "date_rule": null,
+          "date_confidence": null,
+          "date_method": "nextgoal-sync",
+          "date_source": "Manual Entry",
+          "last_verified_date": "2026-05-30",
           "needs_review": false,
           "notes": "Applied from review queue. User manually entered a visible race date from the website preview pane."
         }
